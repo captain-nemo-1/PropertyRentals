@@ -1,10 +1,14 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 /* HEADER */
 
 header {
     background-color: #ffe4c4;
     display: flex;
     padding: 10px;
-    width: 100%
+    width: 100vw;
 }
 
 header .logo {
@@ -25,12 +29,17 @@ header .logo {
 }
 
 .header-button button {
+    background-color: #ffe4c4;
+    border: none;
+    font-size: 15px;
     margin: 10px 2.5px 0 2.5px;
     border-radius: 5px;
 }
 
 header .login-button {
-    background-color: #4b9dfa;
+    background-color: #9e4545;
+    width: 90px;
+    height: 25px;
     color: #ffffff;
 }
 
@@ -40,6 +49,7 @@ header .login-button {
     max-width: 80%;
     margin: 30px auto;
     text-align: center;
+    color: #9e4545;
 }
 
 .top-localities .locality-showcase {
@@ -50,10 +60,10 @@ header .login-button {
 }
 
 .locality-showcase .locality-box {
-    background-image: linear-gradient(to bottom right,#fdcd92 60%, #a1434371);
+    background-image: linear-gradient(to top left,#fdcd92 60%, #e48080bd);
     margin: 5px;
     border-radius: 10px;
-    padding-top: 10px;
+    padding: 10px;
     box-shadow: #808080 5px 5px 10px;
     color: #9e4545;
 }
@@ -73,7 +83,15 @@ header .login-button {
 }
 
 .top-localities button {
+    background-color: #a5202098;
+    font-size: 15px;
+    font-weight: bold;
     margin-top: 15px;
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+    color: #ffffff;
+    box-shadow: #808080 4px 4px 5px;
 }
 
 /* Why Us section*/
@@ -83,18 +101,23 @@ header .login-button {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 100vw;
+    min-height: 200px;
+    margin: 0;
+    align-items: center;
+    color: #9e4545;
 }
 
 .why-us .why-us-left {
     margin-right: 100px;
 }
 
-.why-us .why-us-left h2{
+.why-us .why-us-left h1{
     margin-bottom: 0;
 }
 
 .why-us .why-us-left h5{
-    margin-top: 0;
+    margin-top: 5px;
 }
 
 .why-us-right {
@@ -102,6 +125,10 @@ header .login-button {
     flex-wrap: wrap;
     flex-basis: 50%;
     justify-content: space-around;
+}
+
+.why-us-right .feature {
+    margin: 0 5px;
 }
 
 .why-us-right .feature img{
