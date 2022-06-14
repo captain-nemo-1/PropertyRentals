@@ -1,7 +1,7 @@
 /* HEADER */
 
 header {
-    background-color: bisque;
+    background-color: #ffe4c4;
     display: flex;
     padding: 10px;
     width: 100%
@@ -13,8 +13,8 @@ header .logo {
 }
 
 .logo h2 {
-    background-color: rgb(253, 205, 146);
-    color: rgb(165, 32, 32);
+    background-color: #fdcd92;
+    color: #a52020;
     margin: 0 5px 0 10px;
     padding: 5px;
 }
@@ -30,8 +30,8 @@ header .logo {
 }
 
 header .login-button {
-    background-color: rgb(75, 157, 250);
-    color: white;
+    background-color: #4b9dfa;
+    color: #ffffff;
 }
 
 /* TOP LOCALITIES */
@@ -45,15 +45,17 @@ header .login-button {
 .top-localities .locality-showcase {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
 .locality-showcase .locality-box {
+    background-image: linear-gradient(to bottom right,#fdcd92 60%, #a1434371);
     margin: 5px;
-    border: 1px solid;
+    border-radius: 10px;
     padding-top: 10px;
-    
+    box-shadow: #808080 5px 5px 10px;
+    color: #9e4545;
 }
 
 .locality-showcase .locality-box :hover {
@@ -72,4 +74,39 @@ header .login-button {
 
 .top-localities button {
     margin-top: 15px;
+}
+
+/* Why Us section*/
+
+.why-us {
+    background-color: #ffe4c4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.why-us .why-us-left {
+    margin-right: 100px;
+}
+
+.why-us .why-us-left h2{
+    margin-bottom: 0;
+}
+
+.why-us .why-us-left h5{
+    margin-top: 0;
+}
+
+.why-us-right {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    justify-content: space-around;
+}
+
+.why-us-right .feature img{
+    display: block;
+    width: 35px;
+    height: 35px;
+    margin: 0 auto;
 }
