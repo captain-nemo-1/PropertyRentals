@@ -1,0 +1,37 @@
+/* HEADER */
+
+header {
+    background-color: bisque;
+    display: flex;
+    /* width: 100vw; */
+    padding: 10px;
+}
+
+header .logo {
+    display: flex;
+    /* border: 1px solid; */
+    width: 100px;
+}
+
+.logo h2 {
+    background-color: rgb(253, 205, 146);
+    color: rgb(165, 32, 32);
+    margin: 0 5px 0 10px;
+    padding: 5px;
+}
+
+.header-button {
+    position: absolute;
+    /* top: 50%; */
+    right: 5%;
+}
+
+.header-button button {
+    margin: 10px 2.5px 0 2.5px;
+    border-radius: 5px;
+}
+
+header .login-button {
+    background-color: rgb(75, 157, 250);
+    color: white;
+}
