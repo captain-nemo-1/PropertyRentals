@@ -34,6 +34,21 @@ header .logo {
     font-size: 15px;
     margin: 10px 2.5px 0 2.5px;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+.header-button button:hover {
+    background-color: #a52020;
+    color: #ffffff;
+    font-size: 16px;
+    transition: 0.5s;
+}
+
+.header-button button:active {
+    background-color: #a52020;
+    color: #ffffff;
+    font-size: 15px;
+    transition: 0.5s;
 }
 
 header .login-button {
@@ -59,17 +74,20 @@ header .login-button {
     flex-wrap: wrap;
 }
 
+.locality-showcase div:hover {
+    cursor: pointer;
+    flex-grow: 0.05;
+    box-shadow: #808080 5px 5px 10px;
+
+    transition: 0.2s;
+}
+
 .locality-showcase .locality-box {
     background-image: linear-gradient(to top left,#fdcd92 60%, #e48080bd);
     margin: 5px;
     border-radius: 10px;
     padding: 10px;
-    box-shadow: #808080 5px 5px 10px;
     color: #9e4545;
-}
-
-.locality-showcase .locality-box :hover {
-    cursor: pointer;
 }
 
 .locality-showcase .locality-box img{
@@ -92,6 +110,7 @@ header .login-button {
     border-radius: 10px;
     color: #ffffff;
     box-shadow: #808080 4px 4px 5px;
+    cursor: pointer;
 }
 
 /* Why Us section*/
