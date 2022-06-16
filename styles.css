@@ -156,3 +156,15 @@ header .login-button {
     height: 35px;
     margin: 0 auto;
 }
+
+/* Stats and Testimonials */
+.stats .container{
+    background-color: #9e4545;
+    text-align: center;
+    
+ }
+ .stats p{
+    display: inline-flex;
+    flex-direction: row;   
+    color: #ffffff;
+ }
