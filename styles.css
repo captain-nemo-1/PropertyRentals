@@ -180,3 +180,14 @@ header .login-button {
      font-weight: bold;
      color: #a52020;
  }
+
+ footer {
+     margin-top: 5px;
+     background-color: #ffe4c4;
+     padding: 10px;
+ }
+
+ footer a {
+     text-decoration: none;
+     color: #9e4545;
+ }

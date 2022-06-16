@@ -1,0 +1,80 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* HEADER */
+
+header {
+    background-color: #ffe4c4;
+    display: flex;
+    padding: 10px;
+    width: 100vw;
+}
+
+header .logo {
+    display: flex;
+    width: 100px;
+}
+
+.logo h2 {
+    background-color: #fdcd92;
+    color: #a52020;
+    margin: 0 5px 0 10px;
+    padding: 5px;
+}
+
+.header-button {
+    position: absolute;
+    right: 5%;
+}
+
+.header-button button {
+    background-color: #ffe4c4;
+    border: none;
+    font-size: 15px;
+    margin: 10px 2.5px 0 2.5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.header-button button:hover {
+    background-color: #a52020;
+    color: #ffffff;
+    font-size: 16px;
+    transition: 0.5s;
+}
+
+.header-button button:active {
+    background-color: #a52020;
+    color: #ffffff;
+    font-size: 15px;
+    transition: 0.5s;
+}
+
+header .login-button {
+    background-color: #9e4545;
+    width: 90px;
+    height: 25px;
+    color: #ffffff;
+}
+
+/* CREDITS PAGE */
+.credits h3, p {
+    text-align: center;
+    color: #a52020;
+}
+
+.credits p {
+    color: #000000;
+}
+
+.credits h6{
+    font-size: 17px;
+    margin: 0 20px;
+    color: #9e4545;
+}
+
+.credits a {
+    text-decoration: none;
+}
+
