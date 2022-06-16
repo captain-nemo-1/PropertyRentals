@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="pagestyles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo" onclick="window.location.href='../index.html'">
+            <h2>r</h2>
+            <h6>The rental company</h6>
+        </div>
+        <div class="header-button">
+            <button onclick="window.location.href='properties.html'">
+                Properties
+            </button>
+            <button onclick="window.location.href='post_properties.html'">
+                Post Properties
+            </button>
+            <button onclick="window.location.href='services.html'">
+                Services
+            </button>
+            <button onclick="window.location.href='services.html'">
+                Contact Us
+            </button>
+            <button class="login-button" onclick="">
+                Login
+            </button>
+        </div>
+    </header>
+
+    <!-- Sign Up Form -->
+    <div class="signup-container">
+        <div class="signup-left">
+            <!-- Slideshow container -->
+<div class="slideshow-container fade">
+
+    <!-- Full images with numbers and message Info -->
+    <div class="Containers">
+      <div class="MessageInfo">1 / 3</div>
+      <img src="../images/icons/notify.jpg" style="width:100%">
+      <div class="Info">First caption</div>
+    </div>
+  
+    <div class="Containers">
+      <div class="MessageInfo">2 / 3</div>
+      <img src="../images/icons/apartment-keys.jpg" style="width:100%">
+      <div class="Info">Second Caption</div>
+    </div>
+  
+    <div class="Containers">
+      <div class="MessageInfo">3 / 3</div>
+      <img src="../images/icons/pack-n-move.jpg" style="width:100%">
+      <div class="Info">Third Caption</div>
+    </div>
+  
+    <!-- Back and forward buttons -->
+    <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The circles/dots -->
+  <div style="text-align:center">
+    <span class="dots" onclick="currentSlide(1)"></span>
+    <span class="dots" onclick="currentSlide(2)"></span>
+    <span class="dots" onclick="currentSlide(3)"></span>
+  </div> 
+        </div>
+        <div class="signup-right"></div>
+    </div>
+
+    <script src="pagescript.js"></script>
+</body>
+</html>
