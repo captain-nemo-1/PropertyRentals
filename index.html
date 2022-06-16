@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Rental Company</title>
     <link rel="stylesheet" href="styles.css">
-    
 </head>
 
 <body onload="load()">
@@ -100,8 +99,7 @@
     <!-- Stats and Testimonials -->
     <div class="stats">
         <p>
-            <div class="">Our stats</div>
-            <div class=" justify-content-center  fw-bold "style="color: #9e4545;"></div>
+            <div id="stats">Our Stats</div>
         </p>
         <p>
             <div class="container">
@@ -132,46 +130,6 @@
         <a href="https://www.flaticon.com/free-icons/puzzle" title="puzzle icons">Puzzle icons created by monkik - Flaticon</a>
         <a href="https://www.flaticon.com/free-icons/custom" title="custom icons">Custom icons created by LAFS - Flaticon</a>
     </footer>
-
-    <script>
-        function animate(obj, initVal, lastVal, duration) {
-           let startTime = null;
-  
-        //get the current timestamp and assign it to the currentTime variable
-        let currentTime = Date.now();
-  
-        //pass the current timestamp to the step function
-        const step = (currentTime ) => {
-  
-        //if the start time is null, assign the current time to startTime
-        if (!startTime) {
-           startTime = currentTime ;
-        }
-  
-        //calculate the value to be used in calculating the number to be displayed
-        const progress = Math.min((currentTime - startTime)/ duration, 1);
-  
-        //calculate what to be displayed using the value gotten above
-        obj.innerHTML = Math.floor(progress * (lastVal - initVal) + initVal);
-  
-        //checking to make sure the counter does not exceed the last value (lastVal)
-        if (progress < 1) {
-           window.requestAnimationFrame(step);
-        } else {
-              window.cancelAnimationFrame(window.requestAnimationFrame(step));
-           }
-        };
-        //start animating
-           window.requestAnimationFrame(step);
-        }
-        let text1 = document.getElementById('0101');
-        let text2 = document.getElementById('0102');
-        let text3 = document.getElementById('0103');
-        const load = () => {
-           animate(text1, 0, 511, 8000);
-           animate(text2, 0, 232, 7000);
-           animate(text3, 100, 5, 7000);
-        }
-     </script>
+    <script src="script.js"></script>
 </body>
 </html>
