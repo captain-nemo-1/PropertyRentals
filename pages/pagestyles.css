@@ -78,3 +78,16 @@ header .login-button {
     text-decoration: none;
 }
 
+ /* FOOTER */
+ 
+ footer {
+    margin-top: 5px;
+    background-color: #ffe4c4;
+    padding: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #9e4545;
+}
+
